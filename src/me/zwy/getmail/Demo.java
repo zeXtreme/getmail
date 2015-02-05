@@ -1,4 +1,4 @@
-package me.zwy.getattach;
+package me.zwy.getmail;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,7 +18,7 @@ import com.sun.mail.util.BASE64DecoderStream;
 public class Demo {
 
 	public static void main(String[] args) throws Exception{
-		File file = new File("C:/Users/Zeng/Desktop/eml文件附件提取/(不好意思，请以此份为准）田震燃+综治监察.eml");
+		File file = new File("C:/Users/Zeng/Desktop/eml文件附件提取/(不好意�?�，请以此份为准）田震燃+综治监察.eml");
 		String path = file.getAbsolutePath();
 		File dic = new File(path.substring(0, path.length()-4));
 		if(!dic.exists()){
